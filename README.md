@@ -11,7 +11,7 @@ Este proyecto es una aplicación de escritorio desarrollada para gestionar la tr
 #Características y Arquitectura
 Para garantizar un rendimiento óptimo, seguridad y un código estructurado, implementé:
 * **Validación Multicámara en Tiempo Real:** Integración con OpenCV para procesar streams de video asíncronos, permitiendo escanear códigos QR con varias cámaras en simultáneo y capturar evidencia fotográfica.
-* **Estructura por Capas:El código está organizado en `core` (seguridad), `database` (persistencia), `services` (lógica de negocio) y `ui` (interfaz gráfica interactiva), separando estrictamente las responsabilidades.
+* **Estructura por Capas:**El código está organizado en `core` (seguridad), `database` (persistencia), `services` (lógica de negocio) y `ui` (interfaz gráfica interactiva), separando estrictamente las responsabilidades.
 * **Gestión de Reportes y Trazabilidad:** Generación dinámica de códigos QR para impresión de etiquetas y exportación estructurada de la base de datos a formatos `.csv` y `.xlsx` filtrables por lote.
 * **Seguridad:** Los módulos sensibles de la aplicación están protegidos mediante validación de credenciales con encriptación hash (SHA-256).
 
