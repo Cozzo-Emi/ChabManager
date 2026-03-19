@@ -1,0 +1,21 @@
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos cacheados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Directorio de datos (¡CRÍTICO! Aquí está tu BD y las fotos)
+data/
+
+# Por si quedaron carpetas viejas en la raíz
+chab_database.db
+qr_codes/
+chab_images/
+
+# Configuraciones de IDEs (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
